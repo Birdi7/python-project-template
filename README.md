@@ -33,4 +33,4 @@ Read [this](https://python-poetry.org/docs/basic-usage/) and use [this](https://
 ```poetry shell```
 
 #### add new dependency?
-```https://python-poetry.org/docs/basic-usage/#installing-dependencies```
+https://python-poetry.org/docs/basic-usage/#installing-dependencies
