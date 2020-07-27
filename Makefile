@@ -71,7 +71,7 @@ clean:
 
 .PHONY: isort
 isort:
-	$(py) isort -rc ($project_source_dir)
+	$(py) isort -rc $(project_source_dir)
 
 .PHONY: black
 black:
