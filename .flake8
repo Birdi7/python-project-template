@@ -1,0 +1,46 @@
+[flake8]
+max-line-length = 119
+ignore =
+    # line length
+    E501,
+    # missing whitespace after Ô,Õ, Ô;Õ, or Ô:Õ
+    E231,
+    # unexpected spaces around keyword / parameter equals
+    E251,
+    # missing whitespace around arithmetic operator
+    E226,
+    # line break before binary operator
+    W503,
+    # EOF blank line
+    W391,
+    # continuation line under-indented for hanging indent
+    E121,
+    # continuation line under-indented for visual indent
+    E128,
+    # at least two spaces before inline comment
+    E261,
+    # invalid escape sequence
+    W605,
+    # block comment should start with '# '
+    E265,
+    # closing bracket does not match visual indentation,
+    E124,
+    # multiple spaces after ':'
+    E241,
+    # no newline at end of file
+    W292,
+    # blank line contains whitespace
+    W293,
+    # the backslash is redundant between brackets
+    E502,
+    # line break after binary operator
+    W504,
+    # module level import not at top of file
+    E402,
+    # missing whitespace around operator
+    E225,
+    # expected 2 blank lines, found 1
+    E302,
+    # Whitespace before ':'
+    E203,
+exclude = .git,__pycache__,snapshots,migrations,management
