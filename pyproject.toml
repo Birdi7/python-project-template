@@ -5,7 +5,7 @@ description = ""
 authors = ["Egor <egor.birdi7@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.8"
 black = "^19.10b0"
 flake8 = "^3.7.9"
 pre-commit = "^1.20.0"
