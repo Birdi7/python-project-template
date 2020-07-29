@@ -21,16 +21,3 @@ bash <(curl -sL https://raw.githubusercontent.com/Birdi7/python-project-template
 ## Pre-installed packages
 
 Can be found in [pyproject.toml](pyproject.toml#L7)
-
-
-## FAQ
-# How to
-
-### use poetry? 
-Read [this](https://python-poetry.org/docs/basic-usage/) and use [this](https://python-poetry.org/docs/cli/) as reference
-
-#### activate virtual environment ?
-```poetry shell```
-
-#### add new dependency?
-https://python-poetry.org/docs/basic-usage/#installing-dependencies
