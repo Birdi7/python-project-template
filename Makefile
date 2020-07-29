@@ -1,3 +1,6 @@
+# Originally wrote by @JrooTJunior in
+# https://github.com/aiogram/aiogram/blob/dev-3.x/Makefile
+
 .DEFAULT_GOAL := help
 
 base_python := python3
